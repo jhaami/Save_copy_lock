@@ -1,0 +1,48 @@
+.editor {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 4px;
+    margin-top: -5px;
+   
+  }
+  .btn{
+    padding:12px 20px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+  }
+  #save-button{
+    background-color: #33b249;
+  }
+  #copy-button{
+    background-color: #5dbea3;
+  }
+  #lock-button{
+    background-color: #80669d;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 300px;
+    font-family: "Courier New", monospace;
+    white-space: nowrap;
+    overflow: auto;
+    resize: none;
+    font-size: 18px;
+    padding: 5px;
+    background-color: #f8f8f8;
+  }
+  
+  .locked textarea {
+    background-color: #f2f2f2;
+    pointer-events: none;
+  }
+  
+ 
+  
